@@ -1,5 +1,5 @@
-//Rafael Delgado GarcÌa-Valdecasas
-//Pablo Rienda S·nchez
+//Rafael Delgado Garc√≠a-Valdecasas
+//Pablo Rienda S√°nchez
 #include <dos.h>
 #include <stdio.h>
 
@@ -115,7 +115,7 @@ void recuadro_texto(int x1, int y1, int x2, int y2, int color_texto, int color_f
      textbackground(color_fondo);
      setvideomode(MODOTEXTO);
      gotoxy(x1,y1);
-    // Dibujar el rect·ngulo
+    // Dibujar el rect√°ngulo
     for (i = y1; i < y2+1; i++) {
         for (j = x1; j < x2+1; j++) {
             gotoxy(j,i);

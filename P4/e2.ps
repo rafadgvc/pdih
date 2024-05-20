@@ -1,0 +1,32 @@
+% Configuración del tamaño de la página
+<< /PageSize [842 595] >> setpagedevice
+
+% Color color burdeos para el círculo
+0.5 0 0 setrgbcolor
+
+% Dibuja el círculo en la mitad izquierda
+306 297 50 0 360 arc
+closepath
+fill
+
+% Define el color azul oscuro para el texto
+0 0 0.5 setrgbcolor
+
+% Dibuja el texto en la mitad derecha
+/Arial-Bold findfont 28 scalefont setfont
+500 350 moveto
+(Stephen Strange) show
+500 325 moveto
+(Cirujano de Urgencias) show
+
+% Define el color azul oscuro para el texto
+0 0 0.8 setrgbcolor
+/Arial-Bold findfont 15 scalefont setfont
+500 280 moveto
+(24th Street 7, New York) show
+500 260 moveto
+(Planta 10, Despacho 1) show
+500 240 moveto
+(987654321) show
+500 220 moveto
+(realdrstrange@gmail.com) show

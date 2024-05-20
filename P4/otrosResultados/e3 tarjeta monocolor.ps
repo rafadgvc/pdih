@@ -1,0 +1,42 @@
+% Configuración del tamaño de la página
+<< /PageSize [842 595] >> setpagedevice
+
+% Color burdeos para el corazón
+0.85 0 0 setrgbcolor
+
+% Dibuja el triángulo invertido
+175 125 moveto
+31 330 lineto
+319 330 lineto
+closepath
+fill
+
+% Dibuja el triángulo normal
+175 360 moveto
+145 320 lineto
+185 320 lineto
+closepath
+fill
+
+% Dibuja los semicírculos superiores
+100 359 75 -45 270 arc
+closepath
+fill
+
+250 359 75 -45 270 arc
+closepath
+fill
+
+% Escribir texto
+/Arial-Bold findfont 20 scalefont setfont
+500 180 moveto
+(¿Donde acabaran) show
+
+500 150 moveto
+(los deseos que no cumplimos?) show
+
+500 120 moveto
+(¿Donde ira a parar) show
+
+500 90 moveto
+(la fe que algun dia tuvimos?) show

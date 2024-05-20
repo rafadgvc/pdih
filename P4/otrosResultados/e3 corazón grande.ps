@@ -1,0 +1,30 @@
+% Configuración del tamaño de la página
+<< /PageSize [842 595] >> setpagedevice
+
+% Color burdeos para el corazón
+0.85 0 0 setrgbcolor
+
+% Dibuja el triángulo invertido
+175 125 moveto
+31 330 lineto
+319 330 lineto
+closepath
+fill
+
+% Dibuja el triángulo normal
+175 360 moveto
+145 320 lineto
+185 320 lineto
+closepath
+fill
+
+% Dibuja los semicírculos superiores
+100 359 75 -45 270 arc
+closepath
+fill
+
+250 359 75 -45 270 arc
+closepath
+fill
+
+
